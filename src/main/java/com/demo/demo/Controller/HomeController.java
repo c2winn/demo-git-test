@@ -10,6 +10,7 @@ public class HomeController {
     @RequestMapping(path = "/", method = RequestMethod.GET)
     public String requestMethodName(@RequestParam String param) {
         // I am Lin Htet Aung
+        // I am Sung Jinwoo
         return new String();
     }
 

@@ -12,10 +12,7 @@ public class HomeController {
 
         String name = "Lin Htet Aung";
         // I am Lin Htet Aung
-        System.out.println("Hello Sithu, I am" + name);
-        
-
-        return "index";
+        return new String();
     }
 
 }

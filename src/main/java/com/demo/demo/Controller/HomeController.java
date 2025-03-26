@@ -9,8 +9,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class HomeController {
     @RequestMapping(path = "/", method = RequestMethod.GET)
     public String requestMethodName(@RequestParam String param) {
+
+        String name = "Lin Htet Aung";
         // I am Lin Htet Aung
-        // I am Sung Jinwoo
         return new String();
     }
 
